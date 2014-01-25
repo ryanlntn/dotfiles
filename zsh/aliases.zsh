@@ -17,6 +17,7 @@ alias psr='ps aux | grep ruby'
 
 # Moving around
 alias cdb='cd -'
+alias -- -='cd -'
 
 # Show human friendly numbers and colors
 alias df='df -h'
@@ -61,6 +62,7 @@ alias gci='git ci'
 alias gco='git co'
 alias gcp='git cp'
 alias ga='git add -A'
+alias gac='git add -A; git commit -m'
 alias guns='git unstage'
 alias gunc='git uncommit'
 alias gm='git merge'
@@ -126,6 +128,12 @@ alias k9='kill -9'
 
 # Gem install
 alias sgi='sudo gem install --no-ri --no-rdoc'
+
+# Middleman
+alias mm='middleman'
+alias mmi='middleman init'
+alias mmb='middleman build'
+alias mmd='middleman deploy'
 
 # TODOS
 # This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
